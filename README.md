@@ -67,6 +67,8 @@ Access the dashboard at:
 http://127.0.0.1:1880/ui/
 ```
 
+![HMI Dashboard with real-time charts](assets/fig3_dashboard.png)
+
 ## Contributing
 
 Contributions are welcome and appreciated! Here's how you can contribute:

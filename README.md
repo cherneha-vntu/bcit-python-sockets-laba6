@@ -52,6 +52,8 @@ Both servers generate random values in the range 20-44 (temperature) and 50-74 (
 
 The Node-RED flow uses TCP request nodes to poll the Python servers. Since Node-RED runs inside a Podman container, it connects to the host via `host.containers.internal`.
 
+![Node-RED TCP socket flow](assets/fig2_flow.png)
+
 ### 4. HMI Dashboard
 
 The dashboard displays real-time charts for temperature and humidity, plus a status indicator with hysteresis:

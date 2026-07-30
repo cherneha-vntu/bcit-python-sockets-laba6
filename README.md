@@ -50,7 +50,13 @@ Both servers generate random values in the range 20-44 (temperature) and 50-74 (
 
 ### 3. Node-RED Integration
 
-The Node-RED flow uses TCP request nodes to poll the Python servers. Since Node-RED runs inside a Podman container, it connects to the host via `host.containers.internal`.
+A pre-built flow file is available at [`flows/lab6.json`](flows/lab6.json). To import it:
+
+1. In the Node-RED editor, go to the menu (≡) → Import → Clipboard
+2. Paste the contents of `flows/lab6.json` and click Import
+3. Click Deploy to activate the flow
+
+The flow uses TCP request nodes to poll the Python servers. Since Node-RED runs inside a Podman container, it connects to the host via `host.containers.internal`.
 
 ![Node-RED TCP socket flow](assets/fig2_flow.png)
 

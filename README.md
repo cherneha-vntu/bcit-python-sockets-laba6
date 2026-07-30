@@ -67,8 +67,6 @@ Access the dashboard at:
 http://127.0.0.1:1880/ui/
 ```
 
-See the screenshots in the `assets/` folder for reference.
-
 ## Contributing
 
 Contributions are welcome and appreciated! Here's how you can contribute:

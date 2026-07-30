@@ -30,6 +30,8 @@ python3 basic_client.py
 
 The client sends "Hello world" to the server, which responds with the uppercase version.
 
+![Basic TCP client-server exchange](assets/fig1_socket_basic.png)
+
 ### 2. Sensor Data Servers (Variant 24)
 
 Start the temperature server (port 9001):
